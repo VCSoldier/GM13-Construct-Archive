@@ -1,0 +1,69 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\hl2\materials
+Loading d:\gm_construct_13 source archive\october archived backups\gm_construct (10-23-12).vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steam\steamapps\common\source sdk base 2013 multiplayer\hl2\gameinfo.txt
+Patching WVT material: maps/gm_construct (10-23-12)/gm_construct/grass-sand_13_wvt_patch
+Patching WVT material: maps/gm_construct (10-23-12)/gm_construct/grass_13_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1009.5 3135.6 11313.2)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 838371: 
+
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 368 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing d:\gm_construct_13 source archive\october archived backups\gm_construct (10-23-12).prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/painted*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/painted*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (3102981 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1822 texinfos to 965
+Reduced 250 texdatas to 202 (16027 bytes to 13427)
+Writing d:\gm_construct_13 source archive\october archived backups\gm_construct (10-23-12).bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\gm_construct_13 source archive\october archived backups\gm_construct (10-23-12).bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 2621173, actual size 2589871
+2 seconds elapsed
+
+
+
+12 threads
+reading d:\gm_construct_13 source archive\october archived backups\gm_construct (10-23-12).bsp
+reading d:\gm_construct_13 source archive\october archived backups\gm_construct (10-23-12).prt
+ 683 portalclusters
+1505 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 676 visible clusters (0.32%)
+Total clusters visible: 212971
+Average clusters visible: 311
+Building PAS...
+Average clusters audible: 525
+visdatasize:114661  compressed from 120208
+writing d:\gm_construct_13 source archive\october archived backups\gm_construct (10-23-12).bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\gm_construct_13 source archive\october archived backups\gm_construct (10-23-12).bsp', but we don't own that location. Allowing.
+6 seconds elapsed
